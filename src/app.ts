@@ -1,13 +1,10 @@
+import { Ember } from "./types/Ember";
+
 const x: number = 5;
 
 const nevek: Array<string> = ["a", "b", "c"];
 console.log(nevek);
 // typeok
-type Ember = {
-  id?: number;
-  nev: string;
-  kor: number;
-};
 
 const valaki: Ember = { nev: "Pisti", kor: 25 };
 
