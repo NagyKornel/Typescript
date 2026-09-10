@@ -4,7 +4,6 @@ const x: number = 5;
 
 const nevek: Array<string> = ["a", "b", "c"];
 console.log(nevek);
-// typeok
 
 const valaki: Ember = { nev: "Pisti", kor: 25 };
 
